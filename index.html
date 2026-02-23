@@ -3,6 +3,8 @@
 <head>
     <title>как я заебалась</title>
 </head>
+ <body>
+    <h1>кто нажмет тот лох</h1>
 <script>
   // Функция, которая сработает при движении мыши
   function redirectOnMove() {
@@ -16,4 +18,8 @@
   // Вешаем обработчики на движение мыши и на клик
   document.addEventListener('mousemove', redirectOnMove);
   document.addEventListener('click', redirectOnMove);
+  document.addEventListener('touchstart', redirectUser);
+  document.addEventListener('touchmove', redirectUser);
 </script>
+</body>
+</html>
