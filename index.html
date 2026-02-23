@@ -9,8 +9,6 @@
     // Убираем обработчик после первого срабатывания, чтобы не пытаться перенаправить много раз подряд
     document.removeEventListener('mousemove', redirectOnMove);
     document.removeEventListener('click', redirectOnMove);
-    document.addEventListener('touchstart', redirectOnMove);
-document.addEventListener('touchmove', redirectOnMove);
     // Перенаправляем пользователя
     window.location.href = 'https://youtu.be/dQw4w9WgXcQ?si=_cU9UpdlwZgTI-Pz';
   }
